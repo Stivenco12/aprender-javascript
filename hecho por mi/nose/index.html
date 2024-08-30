@@ -5,9 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="">
-    <script type="module" src="./main.js" ></script>
+    <script type="module" src="./main.js" defer></script>
 </head>
 <body>
-    <input type="text" id="hora">
-</body>
+    <form id="registro">
+
+        <label for="nombre">Nombre:</label>
+        <input name="nombre" id="nombre" type="text" value="">  <br>
+
+        <label for="apellido">Epellido:</label>
+        <input name="apellido" id="apellido" type="text" value=""> <br>
+
+        <label for="edad">Edad: </label>
+        <input name="edad" id="edad"  type="text" value=""> <br>
+
+        <button type="submit" id="">subir</button>
+    </form>
 </html>
