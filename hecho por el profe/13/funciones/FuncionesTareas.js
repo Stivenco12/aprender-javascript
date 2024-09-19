@@ -1,16 +1,23 @@
-import ContenedorTareas from "./componentes/ContenedorTareas.js";
+import ContenedorTareas from "../componentes/ContenedorTareas.js";
 
-function AgregarTarea(input){
-    const textotareas = input.value;
-    const parrafos = document.createElement("p")
-    parrafos.textContent = textotareas
 
-    const botonElemininar = document.createElement("button")
-    botonElemininar.textContent = "Eliminar"
+function agregarTarea(input){
+    const textoTarea = input.value;
+    const parrafoTarea = document.createElement("p")
+    parrafoTarea.textContent = textoTarea;
+    console.log(textoTarea)
 
-    ContenedorTareas.appead(parrafos, botonElemininar)
+    const botonEliminar = document.createElement("button");
+    botonEliminar.textContent = "eliminar";
+    botonEliminar.addEventListener("click", () => eliminarTarea(parrafoTarea, botonEliminar));
+
+    ContenedorTareas.append(parrafoTarea, botonEliminar);
+
 }
 
-function EliminarTarea(){}
+function eliminarTarea(tarea, boton) {
+    tarea.remove();// elimina el boton
+    boton.remove();// elimina la tarea
+}
 
-export { AgregarTarea, EliminarTarea }
+    export { agregarTarea, eliminarTarea}

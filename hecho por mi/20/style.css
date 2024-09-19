@@ -1,0 +1,27 @@
+*{
+    margin:1vw;
+}
+#p1{
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px;
+}
+#p2{
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+}
+#p3{
+    position: absolute;
+    left: 3vw;
+    border: 2px solid black;
+    width: 40vw;
+    height: 35vw;
+}
+#p4{
+    position: absolute;
+    left: 54.8vw;
+    border: 2px solid black;
+    width: 40vw;
+    height: 35vw;
+}
