@@ -80,11 +80,8 @@ class P3Element extends HTMLElement {
             <h1>PROGRAMACIÓN, PORQUÉ ME GUSTA:</h1>
             <p>Me gusta la programación principalmente por el hecho de que algún día me gustaría producir mi hobby favorito que
             es el mundo de los videojuegos.</p>
-            <h1>COMPARA NUESTRA EDAD:</h1>
-            <label for="edad1">Edad 1:</label>
-            <input name="edad1" type="number" id="edad1" placeholder="Ingresa la primera edad">
-            <br>
-            <label for="edad2">Edad 2:</label>
+            <h1>COMPARA NUESTRA EDAD: 16 años</h1>
+            <label for="edad2">Ingresa tu edad:</label>
             <input name="edad2" type="number" id="edad2" placeholder="Ingresa la segunda edad">
             <button id="comparar">Comparar</button>
             <p id="resultado"></p>  
@@ -95,7 +92,7 @@ class P3Element extends HTMLElement {
         const resultado = shadow.getElementById("resultado");
         
         compararBtn.addEventListener("click", () => {
-            const edad1 = parseInt(shadow.getElementById("edad1").value);
+            const edad1 = 16
             const edad2 = parseInt(shadow.getElementById("edad2").value);
 
             if (isNaN(edad1) || isNaN(edad2)) {
