@@ -1,15 +1,18 @@
 *{
     margin:1vw;
+    font-size: 1.4vw;
 }
 #p1{
     text-align: center;
     border: 2px solid black;
+    border-radius: 2vw;
     padding: 5px;
 }
 #p2{
     text-align: center;
     padding: 5px;
     border: 2px solid black;
+    border-radius: 2vw;
 }
 #p3{
     position: absolute;
@@ -17,11 +20,19 @@
     border: 2px solid black;
     width: 40vw;
     height: 35vw;
+    border-radius: 2vw;
 }
-#p4{
-    position: absolute;
-    left: 54.8vw;
+#p3a{
+    margin-left: 6vw;
     border: 2px solid black;
-    width: 40vw;
-    height: 35vw;
+    border-radius: 20vw;
+    width: 10vw;
+}
+#p3b{
+    position: absolute;
+    left: 15vw;
+    margin-top: -13.5vw;
+}
+#p3c{
+    text-align: center;
 }
