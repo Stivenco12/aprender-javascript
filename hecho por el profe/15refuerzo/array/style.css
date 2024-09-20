@@ -1,0 +1,26 @@
+#cuadro{
+    width: 117px;
+    height: 130px;
+    border: 2px solid black;
+}
+#cuadro1, #cuadro2, #cuadro3{
+    font-size: 45px;
+    width: 35px;
+    height: 40px;
+    border: 2px solid black;
+    float:left;
+}
+#cuadro4, #cuadro5, #cuadro6{
+    font-size: 45px;
+    width: 35px;
+    height: 40px;
+    border: 2px solid black;
+    float:left;
+}
+#cuadro7, #cuadro8, #cuadro9{
+    font-size: 45px;
+    width: 35px;
+    height: 40px;
+    border: 2px solid black;
+    float:left;
+}
